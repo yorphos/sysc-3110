@@ -5,7 +5,7 @@ public class AddressBook {
 
     public static void main(String[] args) {
         BuddyInfo buddyInfo = new BuddyInfo("Jack", "Canada", "555"); // Test Comment
-        AddressBook addressBook = new AddressBook();
+        AddressBook addressBook = new AddressBook(); // Test Comment 2
         addressBook.addBuddy(buddyInfo);
         addressBook.removeBuddy(buddyInfo);
     }
