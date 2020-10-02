@@ -11,7 +11,7 @@ public class BuddyInfo {
     }
 
     public static void main(String[] args) {
-        BuddyInfo buddyInfo = new BuddyInfo("Buddy", "123 Main Street", "6135551234");
+        BuddyInfo buddyInfo = new BuddyInfo("Buddy", "123 Main Street", "6135551234"); // Test Comment
 
         System.out.println("Hello " + buddyInfo.getName());
     }
