@@ -4,7 +4,7 @@ public class AddressBook {
     private ArrayList<BuddyInfo> addressBook;
 
     public static void main(String[] args) {
-        BuddyInfo buddyInfo = new BuddyInfo("Jack", "Canada", "555");
+        BuddyInfo buddyInfo = new BuddyInfo("Jack", "Canada", "555"); // Test Comment
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddyInfo);
         addressBook.removeBuddy(buddyInfo);
